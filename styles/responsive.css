@@ -1,0 +1,111 @@
+/* Desktop  */
+@media screen and (min-width:993px) {
+    .view-button {
+        display: none;
+        text-align: center;
+    }
+
+}
+
+/* ..................
+        Mobile responsive
+        .................... */
+
+@media screen and (max-width: 688px) {
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-info-title {
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .banner-info-title h1 {
+        padding-top: 40px;
+        font-size: 40px;
+    }
+
+    .match-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        row-gap: 30px;
+    }
+
+    .blog-items {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+
+    .sercices {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* special btn */
+    .view-button {
+        display: none;
+        text-align: center;
+    }
+
+    /* special btn  end*/
+}
+
+/* ........................
+       mobile responsive end
+       ...................*/
+
+/*...................
+          tablet responsive 
+                 ................*/
+
+@media screen and (min-width: 689px) and (max-width:992px) {
+
+    .banner-info-title h1 {
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+
+    .match-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .button-info {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .button-item {
+        margin: 0 10px;
+    }
+
+    .blog-items {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .view-button {
+        text-align: center;
+    }
+
+    .view-button button {
+        width: 120px;
+        height: 40px;
+        background-color: #DD0000;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+
+}
+
+/* ...................
+       tablet responsive end
+          ..................... */
